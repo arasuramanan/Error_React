@@ -12,7 +12,7 @@ const EmployeeList = () => {
 
     const getEmployees = async () => {
         try{
-            const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/employees`);
+            const response = await axios.get("https://fsd-demo-backend-e3dn.onrender.com/api/employees");
            
             setEmployees(response.data);
         }catch(error){

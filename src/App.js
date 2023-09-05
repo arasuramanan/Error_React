@@ -5,7 +5,7 @@ import EmployeeList from './Components/core/EmployeesList';
 import Header from './Components/core/Header';
 import UpdateEmployee from './Components/core/UpdateEmployee';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-const dotenv = require('dotenv');
+
 
 function App() {
   return (
